@@ -1,0 +1,93 @@
+body{
+    font-family: "Helvetica",Helvetica,Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.50; 
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar{
+    position: relative;
+    min-height: 50px;
+    background-color: #d7d7d7;
+    margin-bottom: 20px;
+    top:0;
+
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+
+.nav{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-nav{
+
+    float: left;
+    margin:0;
+    margin: 7px 15px;
+
+}
+
+.nav > li {
+position: relative;
+display: block;
+float: left;
+
+}
+
+.nav > li > a {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding: 10px 15px;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    color:#000000;
+
+    text-decoration: none;
+    background-color: transparent;
+
+
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus{
+
+    color:#d494d1;
+}
+
+.table{
+    border-collapse: collapse;
+    padding: 10x;
+    width: 80%;
+}
+
+.table td, .table th{
+    border: 1px solid #ddd;
+}
+
+.tabla{
+    border-collapse: collapse;
+    padding: 10px;
+    width: 80%;
+}
+
+.tabla td, .table th{
+    border: 1px solid #ddd;
+}
